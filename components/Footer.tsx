@@ -28,9 +28,9 @@ export default function Footer() {
       { name: 'Wine Tasting', href: '#' }
     ],
     'Contact Info': [
-      { name: '123 Main Street, Downtown', href: '#', icon: MapPin },
-      { name: '(123) 456-7890', href: 'tel:+1234567890', icon: Phone },
-      { name: 'info@labellatavola.com', href: 'mailto:info@labellatavola.com', icon: Mail }
+      { name: '456 South Indian Street, Downtown', href: '#', icon: MapPin },
+      { name: '(555) 123-4567', href: 'tel:+15551234567', icon: Phone },
+      { name: 'info@arunthagam.com', href: 'mailto:info@arunthagam.com', icon: Mail }
     ]
   }
 
@@ -55,16 +55,16 @@ export default function Footer() {
             >
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-serif font-bold text-lg">L</span>
+                  <span className="text-white font-serif font-bold text-lg">A</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-serif font-bold">La Bella Tavola</h3>
-                  <p className="text-sm text-gray-400">Fine Italian Dining</p>
+                  <h3 className="text-xl font-serif font-bold">Arunthagam</h3>
+                  <p className="text-sm text-gray-400">Authentic South Indian Cuisine</p>
                 </div>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Experience the authentic taste of Italy in an elegant atmosphere. 
-                Every dish tells a story of Italian heritage and culinary excellence.
+                Experience the authentic taste of South India in an elegant atmosphere. 
+                Every dish tells a story of South Indian heritage and culinary excellence.
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
@@ -122,7 +122,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} La Bella Tavola. All rights reserved.
+              © {currentYear} Arunthagam. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -153,7 +153,7 @@ export default function Footer() {
               Subscribe to Our Newsletter
             </h4>
             <p className="text-gray-400 mb-6">
-              Stay updated with our latest specials, events, and Italian culinary tips.
+              Stay updated with our latest specials, events, and South Indian culinary tips.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <input

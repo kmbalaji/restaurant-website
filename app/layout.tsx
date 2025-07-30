@@ -5,9 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'La Bella Tavola - Fine Dining Restaurant',
-  description: 'Experience authentic Italian cuisine in an elegant atmosphere. Book your table today for an unforgettable dining experience.',
-  keywords: 'restaurant, Italian food, fine dining, reservations, pasta, pizza, wine',
+  title: 'Arunthagam - Authentic South Indian Restaurant',
+  description: 'Experience authentic South Indian cuisine in an elegant atmosphere. Book your table today for an unforgettable dining experience.',
+  keywords: 'restaurant, South Indian food, fine dining, reservations, dosa, biryani, curry',
 }
 
 export default function RootLayout({

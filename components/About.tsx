@@ -8,12 +8,12 @@ export default function About() {
     {
       icon: Utensils,
       title: 'Authentic Recipes',
-      description: 'Traditional Italian recipes passed down through generations'
+      description: 'Traditional South Indian recipes passed down through generations'
     },
     {
       icon: Wine,
-      title: 'Fine Wine Selection',
-      description: 'Curated wine list featuring the best Italian and international wines'
+      title: 'Fresh Spices',
+      description: 'Hand-picked spices and ingredients for authentic South Indian flavors'
     },
     {
       icon: Heart,
@@ -23,7 +23,7 @@ export default function About() {
     {
       icon: Star,
       title: 'Award Winning',
-      description: 'Recognized for excellence in Italian cuisine and service'
+      description: 'Recognized for excellence in South Indian cuisine and service'
     }
   ]
 
@@ -42,19 +42,19 @@ export default function About() {
               Our Story
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Founded in 1995, La Bella Tavola has been serving authentic Italian cuisine to our beloved community for over 25 years. What started as a small family restaurant has grown into one of the most cherished dining destinations in the city.
+              Founded in 2010, Arunthagam has been serving authentic South Indian cuisine to our beloved community for over 13 years. What started as a small family restaurant has grown into one of the most cherished dining destinations in the city.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Our commitment to using only the finest ingredients, traditional cooking methods, and warm hospitality has remained unchanged throughout the years. Every dish tells a story of Italian heritage and culinary excellence.
+              Our commitment to using only the finest spices, traditional cooking methods, and warm hospitality has remained unchanged throughout the years. Every dish tells a story of South Indian heritage and culinary excellence.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-600 mb-2">25+</div>
+                <div className="text-3xl font-bold text-primary-600 mb-2">13+</div>
                 <div className="text-gray-600">Years of Excellence</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-600 mb-2">1000+</div>
+                <div className="text-3xl font-bold text-primary-600 mb-2">5000+</div>
                 <div className="text-gray-600">Happy Customers</div>
               </div>
             </div>
@@ -84,12 +84,12 @@ export default function About() {
                   <Utensils className="w-6 h-6 text-primary-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Chef Marco</h4>
+                  <h4 className="font-semibold text-gray-900">Chef Rajesh</h4>
                   <p className="text-sm text-gray-600">Head Chef</p>
                 </div>
               </div>
               <p className="text-sm text-gray-600">
-                "Every dish is a celebration of Italian culture and tradition."
+                "Every dish is a celebration of South Indian culture and tradition."
               </p>
             </div>
           </motion.div>

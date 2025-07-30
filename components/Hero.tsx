@@ -29,13 +29,13 @@ export default function Hero({ onReservationClick }: HeroProps) {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-serif font-bold mb-6">
-            La Bella Tavola
+            Arunthagam
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl font-light mb-8 text-gray-200">
-            Experience the authentic taste of Italy
+            Experience the authentic taste of South India
           </p>
           <p className="text-lg sm:text-xl mb-12 text-gray-300 max-w-2xl mx-auto">
-            From traditional pasta dishes to wood-fired pizzas, every meal is crafted with passion and the finest ingredients.
+            From traditional dosas to aromatic biryanis, every dish is crafted with authentic spices and time-honored recipes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

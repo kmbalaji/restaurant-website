@@ -9,9 +9,10 @@ export default function Menu() {
 
   const categories = [
     { id: 'appetizers', name: 'Appetizers' },
-    { id: 'pasta', name: 'Pasta' },
-    { id: 'pizza', name: 'Pizza' },
-    { id: 'main-courses', name: 'Main Courses' },
+    { id: 'dosas', name: 'Dosas' },
+    { id: 'curries', name: 'Curries' },
+    { id: 'biryani', name: 'Biryani' },
+    { id: 'breads', name: 'Breads' },
     { id: 'desserts', name: 'Desserts' },
     { id: 'beverages', name: 'Beverages' }
   ]
@@ -19,121 +20,141 @@ export default function Menu() {
   const menuItems = {
     appetizers: [
       {
-        name: 'Bruschetta al Pomodoro',
-        description: 'Toasted bread topped with fresh tomatoes, basil, and extra virgin olive oil',
-        price: '$12',
-        image: 'https://images.unsplash.com/photo-1572445271230-a78b5944a659?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+        name: 'Masala Vada',
+        description: 'Crispy lentil fritters with onions, green chilies, and aromatic spices',
+        price: '$8',
+        image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Carpaccio di Manzo',
-        description: 'Thinly sliced raw beef with arugula, parmesan, and truffle oil',
-        price: '$18',
+        name: 'Samosa',
+        description: 'Flaky pastry filled with spiced potatoes, peas, and aromatic spices',
+        price: '$6',
         image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Mozzarella di Bufala',
-        description: 'Fresh buffalo mozzarella with prosciutto and aged balsamic',
-        price: '$16',
-        image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+        name: 'Pakora',
+        description: 'Crispy vegetable fritters made with chickpea flour and fresh vegetables',
+        price: '$7',
+        image: 'https://images.unsplash.com/photo-1572445271230-a78b5944a659?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ],
-    pasta: [
+    dosas: [
       {
-        name: 'Spaghetti alla Carbonara',
-        description: 'Classic Roman pasta with eggs, pecorino cheese, pancetta, and black pepper',
-        price: '$24',
+        name: 'Masala Dosa',
+        description: 'Crispy rice and lentil crepe filled with spiced potato mixture',
+        price: '$12',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Fettuccine Alfredo',
-        description: 'Homemade fettuccine in creamy parmesan sauce with butter',
-        price: '$22',
+        name: 'Onion Dosa',
+        description: 'Thin crepe with caramelized onions and served with chutneys',
+        price: '$10',
         image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Penne all\'Arrabbiata',
-        description: 'Spicy tomato sauce with garlic, red chili peppers, and fresh basil',
-        price: '$20',
+        name: 'Rava Dosa',
+        description: 'Semolina crepe with onions, green chilies, and curry leaves',
+        price: '$11',
         image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ],
-    pizza: [
+    curries: [
       {
-        name: 'Margherita',
-        description: 'Traditional pizza with tomato sauce, mozzarella, and fresh basil',
+        name: 'Butter Chicken',
+        description: 'Tender chicken in rich tomato and butter gravy with aromatic spices',
         price: '$18',
         image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Quattro Stagioni',
-        description: 'Four seasons pizza with artichokes, mushrooms, ham, and olives',
-        price: '$22',
+        name: 'Palak Paneer',
+        description: 'Fresh spinach curry with homemade cottage cheese and spices',
+        price: '$16',
         image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Diavola',
-        description: 'Spicy pizza with salami, mozzarella, and red chili peppers',
-        price: '$20',
+        name: 'Chicken Tikka Masala',
+        description: 'Grilled chicken in creamy tomato-based curry with aromatic spices',
+        price: '$19',
         image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ],
-    'main-courses': [
+    biryani: [
       {
-        name: 'Osso Buco alla Milanese',
-        description: 'Braised veal shanks in white wine and broth with gremolata',
-        price: '$32',
+        name: 'Chicken Biryani',
+        description: 'Aromatic basmati rice cooked with tender chicken and fragrant spices',
+        price: '$22',
         image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Saltimbocca alla Romana',
-        description: 'Veal cutlets wrapped with prosciutto and sage in white wine sauce',
-        price: '$28',
+        name: 'Vegetable Biryani',
+        description: 'Fragrant rice with fresh vegetables and aromatic spices',
+        price: '$18',
         image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Branzino al Forno',
-        description: 'Whole roasted sea bass with herbs, lemon, and olive oil',
-        price: '$34',
+        name: 'Lamb Biryani',
+        description: 'Tender lamb pieces cooked with basmati rice and royal spices',
+        price: '$24',
         image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      }
+    ],
+    breads: [
+      {
+        name: 'Naan',
+        description: 'Soft and fluffy leavened flatbread baked in tandoor',
+        price: '$3',
+        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      },
+      {
+        name: 'Roti',
+        description: 'Whole wheat flatbread made with traditional techniques',
+        price: '$2',
+        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      },
+      {
+        name: 'Paratha',
+        description: 'Layered flatbread with ghee and served with yogurt',
+        price: '$4',
+        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ],
     desserts: [
       {
-        name: 'Tiramisu',
-        description: 'Classic Italian dessert with mascarpone, coffee, and cocoa',
-        price: '$12',
-        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-      },
-      {
-        name: 'Panna Cotta',
-        description: 'Silky vanilla custard with fresh berries and caramel sauce',
-        price: '$10',
-        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-      },
-      {
-        name: 'Gelato Artigianale',
-        description: 'Homemade gelato with seasonal flavors',
+        name: 'Gulab Jamun',
+        description: 'Soft milk solids dumplings soaked in rose-flavored sugar syrup',
         price: '$8',
+        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      },
+      {
+        name: 'Rasmalai',
+        description: 'Soft cottage cheese patties soaked in sweetened milk',
+        price: '$9',
+        image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      },
+      {
+        name: 'Kheer',
+        description: 'Traditional rice pudding with cardamom and nuts',
+        price: '$7',
         image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ],
     beverages: [
       {
-        name: 'Italian Wines',
-        description: 'Selection of fine Italian red and white wines',
-        price: '$12-45',
-        image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-      },
-      {
-        name: 'Espresso',
-        description: 'Traditional Italian espresso',
+        name: 'Masala Chai',
+        description: 'Traditional spiced tea with milk and aromatic spices',
         price: '$4',
         image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
       {
-        name: 'Limoncello',
-        description: 'Homemade Italian lemon liqueur',
-        price: '$8',
+        name: 'Lassi',
+        description: 'Refreshing yogurt-based drink with mango or rose flavor',
+        price: '$5',
+        image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+      },
+      {
+        name: 'Filter Coffee',
+        description: 'Traditional South Indian filter coffee with milk',
+        price: '$3',
         image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       }
     ]
@@ -153,7 +174,7 @@ export default function Menu() {
             Our Menu
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our authentic Italian dishes, carefully crafted with the finest ingredients and traditional recipes.
+            Discover our authentic South Indian dishes, carefully crafted with the finest spices and traditional recipes.
           </p>
         </motion.div>
 

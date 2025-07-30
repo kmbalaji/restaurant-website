@@ -8,20 +8,20 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Address',
-      content: '123 Main Street, Downtown, City, State 12345',
+      content: '456 South Indian Street, Downtown, City, State 12345',
       link: 'https://maps.google.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '(123) 456-7890',
-      link: 'tel:+1234567890'
+      content: '(555) 123-4567',
+      link: 'tel:+15551234567'
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@labellatavola.com',
-      link: 'mailto:info@labellatavola.com'
+      content: 'info@arunthagam.com',
+      link: 'mailto:info@arunthagam.com'
     },
     {
       icon: Clock,
@@ -149,10 +149,10 @@ export default function Contact() {
             <div className="absolute bottom-4 left-4 right-4">
               <div className="bg-white/95 backdrop-blur-sm rounded-lg p-4 shadow-lg">
                 <h4 className="font-semibold text-gray-900 mb-1">
-                  La Bella Tavola
+                  Arunthagam
                 </h4>
                 <p className="text-sm text-gray-600">
-                  123 Main Street, Downtown<br />
+                  456 South Indian Street, Downtown<br />
                   City, State 12345
                 </p>
               </div>

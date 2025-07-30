@@ -36,11 +36,11 @@ export default function Header({ onReservationClick }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-serif font-bold text-lg">L</span>
+              <span className="text-white font-serif font-bold text-lg">A</span>
             </div>
             <div>
-              <h1 className="text-xl font-serif font-bold text-gray-900">La Bella Tavola</h1>
-              <p className="text-xs text-gray-600">Fine Italian Dining</p>
+              <h1 className="text-xl font-serif font-bold text-gray-900">Arunthagam</h1>
+              <p className="text-xs text-gray-600">Authentic South Indian Cuisine</p>
             </div>
           </div>
 
@@ -60,11 +60,11 @@ export default function Header({ onReservationClick }: HeaderProps) {
           {/* Contact and Reservation */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+1234567890"
+              href="tel:+15551234567"
               className="flex items-center space-x-2 text-gray-700 hover:text-primary-600 transition-colors duration-200"
             >
               <Phone size={16} />
-              <span className="font-medium">(123) 456-7890</span>
+              <span className="font-medium">(555) 123-4567</span>
             </a>
             <button
               onClick={onReservationClick}
@@ -99,11 +99,11 @@ export default function Header({ onReservationClick }: HeaderProps) {
               ))}
               <div className="pt-4 border-t border-gray-200">
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+15551234567"
                   className="flex items-center space-x-2 text-gray-700 hover:text-primary-600 transition-colors duration-200 mb-4"
                 >
                   <Phone size={16} />
-                  <span className="font-medium">(123) 456-7890</span>
+                  <span className="font-medium">(555) 123-4567</span>
                 </a>
                 <button
                   onClick={() => {
