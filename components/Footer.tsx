@@ -1,12 +1,18 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react'
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, LucideIcon } from 'lucide-react'
+
+interface FooterLink {
+  name: string
+  href: string
+  icon?: LucideIcon
+}
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
-  const footerLinks = {
+  const footerLinks: Record<string, FooterLink[]> = {
     'Quick Links': [
       { name: 'Home', href: '#home' },
       { name: 'About', href: '#about' },
